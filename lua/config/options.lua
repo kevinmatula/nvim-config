@@ -18,3 +18,6 @@ vim.filetype.add({
     [".*%.tmpl%.cpp"] = "cpp",
   },
 })
+
+vim.opt.number = true
+vim.opt.relativenumber = false
